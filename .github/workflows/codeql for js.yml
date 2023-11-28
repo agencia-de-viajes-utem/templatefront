@@ -14,9 +14,6 @@ name: "CodeQL para js"
 on:
   push:
     branches: [ "feature" ]
-  pull_request:
-    # The branches below must be a subset of the branches above
-    branches: [ "development" ]
   schedule:
     - cron: '18 20 * * 3'
 
