@@ -2,9 +2,7 @@ name: Test Features
 
 on:
   push:
-    branches:
-      - features/*
-
+    branches: [ "feature" ]
 jobs:
   test:
     runs-on: ubuntu-latest
