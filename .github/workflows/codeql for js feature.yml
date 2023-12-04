@@ -13,7 +13,7 @@ name: "CodeQL para js"
 
 on:
   push:
-    branches: [ "feature" ]
+    branches: [ "staging" ]
   schedule:
     - cron: '18 20 * * 3'
 
